@@ -58,7 +58,7 @@ let package = Package(
             revision: "cc73bf2dd3cdc3460f1f2a6181a4252a1be3097b",
             traits: swiftNetworkTraits
         ),
-        .package(url: "https://github.com/apple/swift-tls", branch: "main"),
+        .package(url: "https://github.com/hironichu/swift-tls.git", branch: "feature/secp256r1-key-exchange"),
     ],
     targets: [
         .executableTarget(
