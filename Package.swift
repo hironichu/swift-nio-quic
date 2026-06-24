@@ -54,8 +54,8 @@ let package = Package(
         .package(url: "https://github.com/apple/swift-crypto.git", exact: "5.0.0-beta.1"),
         .package(url: "https://github.com/apple/swift-nio-quic-helpers.git", branch: "main"),
         .package(
-            url: "https://github.com/apple/swift-network-evolution",
-            revision: "cc73bf2dd3cdc3460f1f2a6181a4252a1be3097b",
+            url: "https://github.com/hironichu/swift-network-evolution.git",
+            branch: "feature/secp256r1-key-exchange",
             traits: swiftNetworkTraits
         ),
         .package(url: "https://github.com/hironichu/swift-tls.git", branch: "feature/secp256r1-key-exchange"),
